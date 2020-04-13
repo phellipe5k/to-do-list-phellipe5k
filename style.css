@@ -1,0 +1,302 @@
+
+  .coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,
+      -8px -8px 0 firebrick,
+      -30px 20px 40px dimgrey;
+  }
+  
+  body{
+    font-family: 'Josefin Slab', serif;
+  
+  }
+  .done {
+    text-decoration: line-through;
+  }
+  
+  li{
+    cursor: pointer;
+  }
+  
+  .logo{
+    width: 450px;
+  
+  }
+  .top{
+    text-align: center;
+  }
+  
+  .container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .howto{
+    text-align: center;
+  }
+  
+  .iconssocial img{
+    opacity: 0.5;
+    width: 19px;
+    background-color: black;
+    padding: 10px;
+    margin-right: 12px;
+    border-radius: 11px;
+  }
+  .iconssocial img:hover{
+    opacity: 1;
+    transition: 450ms;
+  }
+  .redessociais h3{
+    color: black;
+  }
+  
+  #face:hover{
+    background-color: #037af2;
+    transform: scale(1.5);
+  }
+  
+  #insta:hover{
+    background-image: radial-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    transform: scale(1.5);
+  }
+  #youtube:hover{
+    background-color: #bc2727;
+    transform: scale(1.5);
+  }
+  #git:hover{
+    background-color: #242424;
+    transform: scale(1.5);
+  }
+  
+  #twitter:hover{
+    background-color: #0ca6d4;
+    transform: scale(1.5);
+  }
+  
+  #in:hover{
+    background-color: #144da7;
+    transform: scale(1.5);
+  }
+  
+  .redessociais{
+    padding: 25px;
+  }
+  .redessociais h3{
+    font-size: 22pt;
+  }
+  .barsocial{
+    text-align: left;
+  }
+  .barsocial a{
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    
+  }
+  .barsocial span{
+    margin-left: 20px;
+  }
+  
+  #discord{
+    background-color: #5d7bde;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  #discord:hover{
+    background-color: #000;
+    opacity: 0.4;
+    transition: 450ms;
+  }
+  
+  #mail:hover{
+    background-color: #000;
+    opacity: 0.4;
+    transition: 450ms;
+  }
+  
+  #gmail:hover{
+    background-color: #000;
+    opacity: 0.4;
+    transition: 450ms;
+  }
+  
+  #mail{
+    background-color: #2f2f2f;
+    color: white;
+    border-radius: 10px;
+  }
+  #gmail{
+    background-color: #af2525;
+    color: white;
+    border-radius: 10px;
+  }
+  .tamanhoicone{
+    transform: scale(1.5);
+    transition: 450ms;
+  }
+  
+  .numerossocial{
+    padding: 15px;
+    border-radius: 25px;
+    
+  }
+  .numerossocial h4{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .span{
+    text-align: center;
+  }
+  
+  .barsocial a{
+      text-decoration: none;
+  }
+  
+  .redessociais h2{
+    margin-top: -5px;
+  }
+  
+  .howto span{
+    text-decoration: line-through;
+    font: bold;
+    font-weight: 1000;
+  }
+  
+  #enter{
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:  none;
+    background-color: rgb(145, 21, 247);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    animation: jump 1.2s  infinite linear;
+  }
+  
+  #enter:hover{
+    transform: scale(1.1);
+    transition: 850ms;
+    background-color: rgb(159, 53, 247);
+    box-shadow: 1px 1px 10px black;
+  }
+  
+  @keyframes jump{
+    0%{
+      transform: translateY(0px)
+    }
+    50%{
+      transform: translateY(-3px) 
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+  .listtext{
+    display: flex;
+    font-size: 24pt;
+    list-style: none;
+    background-color: rgb(148, 3, 192);
+    padding: 8px;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 10px;
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  
+  .listbutton{
+     background: none;
+    color: black;
+    font-size: 15pt;
+    border: none;
+    height: 27px; 
+    margin-left: auto;
+  }
+  
+  .listbutton:hover{
+    background-color: rgba(255, 255, 255, 0.603);
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 450ms;
+  }
+  
+  #userinput{
+      height: 40px;
+      border-radius: 40px;
+      padding-left: 10px;
+    border: 5px solid rebeccapurple;
+  }
+  
+  #userinput::placeholder{
+    color: rgba(102, 51, 153, 0.719);
+    padding-left: 10px;
+    font-weight: 800;
+  }
+  
+  .listass{
+    margin-left: -50px;
+  }
+  
+  .span{
+    border-left: 5px solid rebeccapurple;
+    margin-left: 20px;
+  }
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  /* For mobile phones: */
+  .iconssocial img{
+    margin: 0;
+  }
+  
+  .listass li{
+    margin-left: 30px;
+  }
+  
+  .logo{
+    width: 350px;
+  }
+  
+  .container {
+    display: block;
+  }
+  .main{
+    
+    text-align: center;
+  }
+  .listtext{
+    margin-left: 100px;
+  }
+
+  .span{
+    border-top: 5px solid rebeccapurple;
+    border-left: none;
+  }
+}
+
+
+     
